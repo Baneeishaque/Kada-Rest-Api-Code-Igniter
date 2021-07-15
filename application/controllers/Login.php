@@ -3,7 +3,7 @@ error_reporting(0);
 defined('BASEPATH') OR exit('No direct script access allowed');
 require(APPPATH.'libraries/REST_Controller.php');
 
-class login extends REST_Controller 
+class Login extends REST_Controller 
 {
 
   public function __construct()
