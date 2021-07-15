@@ -10,6 +10,14 @@ class General_Model extends CI_Model
     // Insert into table
     public function add($table,$data)
     {
-        return $this->db->insert($table, $data);
+        $this->db->insert($table, $data);
+        return $this->db->insert_id();
+    }
+    public function apiResponse($response,$error = 1)
+    {
+         //$ack                 = "Success";
+         $ack = ($error) ? "Success" : "error";
+         $data                = '{ "ack": "'.$ack.'" , "results":'.$response.'}';
+         echo $data;
     }
 }
