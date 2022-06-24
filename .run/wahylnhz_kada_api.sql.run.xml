@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="wahylnhz_kada_api.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+    <script-file value="$PROJECT_DIR$/wahylnhz_kada_api.sql" />
+    <script-mode>FILE</script-mode>
+    <data-source id="fdfe6bf8-4c5d-456b-bc2b-6eecd32d4235" namespace="schema/&quot;wahylnhz_kada_api&quot;" />
+    <method v="2" />
+  </configuration>
+</component>
