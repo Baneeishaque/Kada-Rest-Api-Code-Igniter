@@ -11,8 +11,13 @@
 		"source": "https://github.com/bcit-ci/CodeIgniter"
 	},
 	"require": {
-		"php": ">=5.3.7"
-	},
+		"php": ">=5.4",
+		"ext-simplexml": "*",
+		"ext-mbstring": "*",
+		"ext-json": "*",
+		"ext-libxml": "*",
+      	"ext-curl": "*"
+    },
 	"suggest": {
 		"paragonie/random_compat": "Provides better randomness in PHP 5.x"
 	},
